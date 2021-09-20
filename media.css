@@ -1,0 +1,292 @@
+@media screen and (max-width: 1024px) {
+  .nav-btn {
+    display: block;
+  }
+
+  .menu-list {
+    display: none;
+  }
+
+  .nav_display_none {
+    display: block;
+    width: 30%;
+  }
+
+  .hero-sec {
+    flex-direction: column;
+  }
+
+  .left-content {
+    width: 85%;
+    margin: auto;
+  }
+
+  .hero-rating {
+    display: none;
+  }
+
+  .hero-div {
+    outline: none;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    width: 85%;
+    margin: auto;
+    position: static;
+  }
+
+  .hero-right-img {
+    display: none;
+  }
+
+  .div-text-content {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.4em;
+  }
+
+  .div-text-content p {
+    display: none;
+  }
+
+  .download-icon {
+    width: 65%;
+  }
+
+  .service-container {
+    width: 60%;
+    margin: auto;
+  }
+
+  .item-list h4 {
+    font-size: 1.2em;
+  }
+
+  .freedom-div img {
+    margin: auto;
+  }
+
+  .map-div {
+    width: 90%;
+    margin: auto;
+  }
+
+  .map-txt-content {
+    margin: 0;
+    margin-top: 4rem;
+    padding: 0.4rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo-img {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .top_bar_right {
+    display: none;
+  }
+
+  .hero-div {
+    width: 90%;
+    margin: 0 auto;
+    background-position: center;
+    height: 400px;
+  }
+
+  .div-text-content {
+    width: 75%;
+  }
+
+  .tab-items {
+    flex-direction: column;
+  }
+
+  .freedom-div {
+    flex-direction: column;
+  }
+
+  .freedom-div img {
+    width: 100%;
+  }
+
+  .freedom-txt {
+    margin: 0;
+    margin-top: 1rem;
+  }
+
+  .map-div {
+    flex-direction: column;
+  }
+
+  .map-iframe {
+    width: 100%;
+  }
+
+  .map-location {
+    width: auto;
+  }
+
+  .map-btn button {
+    width: auto;
+  }
+
+  .map-txt-content {
+    padding: 3rem;
+  }
+
+  .map-items img {
+    width: 10%;
+  }
+
+  .finding-div {
+    flex-direction: column;
+  }
+
+  .finding-title {
+    font-size: 3em;
+  }
+
+  .finding-right-mob-frame {
+    padding: 0;
+    margin-top: 1rem;
+  }
+
+  .finding-right-mob-frame img {
+    width: 97%;
+  }
+
+  .price-banner {
+    width: 95%;
+    height: 400px;
+  }
+
+  .price-banner h1 {
+    font-size: 2em;
+    line-height: initial;
+  }
+
+  .price-banner h6 {
+    font-size: 0.9em;
+  }
+
+  .price-items {
+    margin-top: 1.4rem;
+    position: static;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.1em;
+  }
+
+  .price-item {
+    width: 80%;
+  }
+
+  .footer-sec {
+    margin-top: 4.2rem;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .second-details {
+    margin: 2.1rem 0;
+  }
+
+  .slider-btn {
+    text-align: center;
+    padding: 0.4rem 3rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .left-content {
+    width: 95%;
+    height: max-content;
+  }
+
+  .hero-div {
+    background-position: center;
+    height: 200px;
+  }
+
+  .service-container h2 {
+    font-size: 2.2em;
+    line-height: initial;
+  }
+
+  .div-text-content {
+    padding: 2rem 0;
+  }
+
+  .div-text-content h2 {
+    font-size: 0.99em;
+  }
+
+  .download-icon {
+    width: 75%;
+    margin-top: 1rem;
+  }
+
+  .freedom-title {
+    font-size: 2.2em;
+    letter-spacing: -1px;
+  }
+
+  .map-location {
+    height: max-content;
+  }
+
+  .map-btn button {
+    width: 100%;
+    padding: 0.9rem 1.3rem;
+  }
+
+  .finding-txt {
+    padding: 0;
+  }
+
+  .finding-title {
+    font-size: 2em;
+  }
+
+  .finding-txt p {
+    font-size: 0.9em;
+  }
+
+  article img {
+    width: 21%;
+  }
+
+  article h4 {
+    font-size: 0.8em;
+  }
+
+  .price-banner h1 {
+    font-size: 2em;
+    text-align: center;
+  }
+
+  .price-banner h6 {
+    font-size: 0.8em;
+  }
+
+  .store-img-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6em;
+  }
+
+  .navbar-slider {
+    width: 60%;
+  }
+
+  .slider-btn {
+    text-align: center;
+    padding: 0.7rem 4rem;
+  }
+}

@@ -1,0 +1,768 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  color: red;
+  background-color: chartreuse;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f8f8ff;
+}
+
+#main-website {
+  outline: 4px solid red;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 2.3rem;
+  padding: 0 0.6rem;
+  position: sticky;
+  top: 0;
+  background: #ffffff;
+  z-index: 10;
+}
+
+.nav-btn {
+  border: none;
+  background-color: transparent;
+  display: none;
+}
+
+.fa-bars {
+  color: #00d285;
+  font-size: 2em;
+}
+
+.logo-img {
+  width: 53%;
+  cursor: pointer;
+}
+
+.menu-list {
+  width: 40%;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu-list li a {
+  text-decoration: none;
+  font-size: 1em;
+  letter-spacing: 1px;
+  font-weight: 600;
+  color: black;
+}
+
+.menu-list li a:hover {
+  color: #00d285;
+}
+
+.home-page {
+  color: #00d285 !important;
+}
+
+.top_bar_right {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.top_bar_right,
+.navbar-slider,
+.column-menu-anchor-list,
+a {
+  text-decoration: none;
+}
+
+.navbar-slider {
+  height: 100%;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  right: 1px;
+  z-index: 1;
+  display: none;
+}
+
+.close-wrapper {
+  background-color: red;
+}
+
+.slider-anchor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3.9rem;
+}
+
+.slider-btn {
+  color: #ffffff;
+  background-color: #039a63;
+  font-size: 0.9em;
+  font-weight: 700;
+  padding: 0.6rem 4rem;
+  border-radius: 16px;
+}
+
+.slider-cart {
+  font-size: 1.6em;
+  padding: 0 1.2rem;
+  margin: 1.4rem 0;
+}
+
+.column-menu-anchor-list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1rem;
+}
+
+.column-menu-anchor-list a {
+  color: #a6a6a6;
+  padding-top: 1rem;
+}
+
+.slider-home {
+  color: white !important;
+}
+
+#heading-cart {
+  font-size: 1.6em;
+  padding: 0 1.2rem;
+}
+
+.book-btn {
+  color: #ffffff;
+  background-color: #039a63;
+  font-size: 0.9em;
+  font-weight: 700;
+  text-align: center;
+  padding: 0.6rem 1.3rem;
+  border-radius: 22px;
+}
+
+.hero-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 2.3rem auto;
+}
+
+.left-content {
+  width: 36%;
+  height: 470px;
+  background-color: black;
+  background-image: url(Images/scooterrental-footer-bg.png);
+  background-position: right;
+  border-radius: 35px;
+  border-top-left-radius: 72px;
+  border-bottom-right-radius: 72px;
+  display: flex;
+  z-index: 1;
+  margin-left: 3rem;
+}
+
+.div-text-content {
+  margin: auto 3rem;
+}
+
+.hero-div {
+  width: 52%;
+  height: 470px;
+  border-radius: 35px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-image: url(Images/Hero\ Right\ img.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  right: 5%;
+}
+
+.div-text-content h2 {
+  color: white;
+  font-size: 2.3em;
+}
+.highlight-text {
+  color: #00d285;
+}
+
+.div-text-content p {
+  margin-top: 1.3rem;
+  color: #dddddd;
+}
+
+.download-icon {
+  width: 85%;
+  margin-top: 2.8rem;
+}
+
+.hero-right-img {
+  width: 28%;
+  position: absolute;
+  top: 40%;
+  right: 17%;
+}
+
+.hero-rating {
+  width: 12%;
+  height: 80px;
+  background-color: #f5f5f5;
+  border-radius: 22px;
+  position: absolute;
+  top: 32%;
+  right: 11.7%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mob-txt1 {
+  color: #00d285;
+  font-size: 0.6em;
+  letter-spacing: 1.2px;
+}
+
+.mob-txt2 {
+  color: #000000;
+  font-size: 0.6em;
+  letter-spacing: 0.7px;
+}
+
+.hero-rating img {
+  width: 72%;
+  margin-top: 0.6rem;
+}
+
+.service-sec {
+  margin-top: 10rem;
+}
+
+.service-container h2 {
+  text-align: center;
+  color: #000000;
+  font-size: 3.9em;
+  font-weight: 800;
+  line-height: 65px;
+  letter-spacing: -1px;
+}
+
+.service-container h2 span {
+  color: #00d285;
+}
+
+.service-container p {
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: #8e9aac;
+  font-size: 1.17em;
+}
+
+.service-p1 {
+  margin-top: 0.9rem;
+}
+
+.service-p2 {
+  margin-top: 0.5rem;
+}
+
+.tab-items {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  padding: 3rem 4rem;
+}
+
+.item-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.3rem;
+}
+
+.item-list h4 {
+  color: #000;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: 400;
+  margin-top: 0.8rem;
+}
+
+.item-list img {
+  width: 30%;
+}
+
+.btn-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.learn-btn button {
+  color: white;
+  background-color: #00d285;
+  border: none;
+  padding: 0.8rem 2.4rem;
+  border-radius: 20px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.freedom-sec {
+  margin-top: 9rem;
+}
+
+.freedom-div {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  padding: 0.5rem 2rem;
+}
+
+.freedom-div img {
+  width: 50%;
+}
+
+.freedom-heading {
+  color: #000000;
+  font-size: 0.8em;
+}
+
+.fa-dot-circle {
+  color: #00d285;
+  margin-right: 0.8rem;
+}
+
+.freedom-txt {
+  margin-left: 4.5rem;
+  height: max-content;
+}
+
+.freedom-txt span {
+  color: #00d285;
+}
+
+.freedom-tag {
+  color: #626262;
+  margin-top: 1rem;
+  font-size: 1.1em;
+}
+
+.freedom-title {
+  color: #000;
+  font-size: 4em;
+  line-height: 1.1em;
+  letter-spacing: -2px;
+  margin-top: 2.4rem;
+}
+
+.freedom-div p {
+  margin: 2.3rem 0;
+  font-size: 1.1em;
+}
+
+.fa-arrow-right {
+  color: #00d285;
+  margin-right: 0.5rem;
+}
+
+.vehicle-btn button {
+  color: white;
+  background-color: #00d285;
+  border: none;
+  padding: 0.8rem 2.1rem;
+  border-radius: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 2rem;
+}
+
+.map-sec {
+  margin-top: 7rem;
+}
+
+.map-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.map-location {
+  width: 22%;
+  height: 590px;
+  background-color: #00d285;
+}
+
+.map-location h4 {
+  color: #ffffff;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+
+.fa-circle-notch {
+  background-color: white;
+  border-radius: 50%;
+  font-size: 0.9em;
+  margin-right: 0.5rem;
+}
+
+.map-location h5 {
+  color: #ffffff;
+  font-size: 1.5em;
+  line-height: 1.4em;
+  margin: 1.9rem 0;
+  font-weight: 500;
+}
+
+.map-btn {
+  text-decoration: none;
+}
+
+.map-btn button {
+  width: 100%;
+  color: white;
+  background-color: #000000;
+  border: none;
+  padding: 0.7rem 3rem;
+  border-radius: 25px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 2.3rem;
+}
+
+.map-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.map-items img {
+  width: 15%;
+}
+
+.map-item1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 2.5rem;
+}
+
+.map-item2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.map-items h6 {
+  color: #ffffff;
+  font-size: 1em;
+  padding: 0 1.4rem;
+}
+
+.fa-map-marker-alt {
+  margin-left: 1.2rem;
+}
+
+.map-txt-content {
+  margin: 5.5rem 2.4rem;
+}
+
+.finding-sec {
+  margin-top: 7rem;
+  outline: 2px solid crimson;
+  padding: 0.5rem 2.2rem;
+}
+
+.finding-div {
+  display: flex;
+  flex-direction: row;
+}
+
+.finding-txt {
+  padding-right: 4rem;
+  margin: auto 0;
+}
+
+.finding-title {
+  color: #000000;
+  font-size: 4em;
+  line-height: 1.1em;
+  font-weight: 700;
+  margin-top: 2.4rem;
+}
+
+.finding-title span {
+  color: #00d285;
+}
+
+.finding-heading {
+  color: #000000;
+  font-size: 0.8em;
+}
+
+.finding-txt p {
+  margin: 2.3rem 0;
+  font-size: 1.1em;
+}
+
+article {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+article h4 {
+  color: #8e9aac;
+  font-size: 100%;
+  margin-left: 1.9rem;
+}
+
+article img {
+  width: 8%;
+}
+
+.finding-btn button {
+  color: white;
+  background-color: #00d285;
+  border: none;
+  padding: 0.8rem 2.1rem;
+  border-radius: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 2.2rem;
+}
+
+.finding-right-mob-frame img {
+  width: 107%;
+}
+
+.finding-right-mob-frame {
+  padding-right: 4rem;
+}
+
+.pricing-sec {
+  margin-top: 9rem;
+}
+
+.price-banner {
+  background-color: #00d285;
+  width: 83%;
+  height: 560px;
+  border-radius: 30px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.price-banner h1 {
+  line-height: 60px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  font-size: 3.6em;
+  font-weight: 700;
+}
+
+.price-banner h6 {
+  color: #000000;
+  font-size: 1.04em;
+  text-align: center;
+}
+
+.price-heading {
+  margin-top: 6rem;
+}
+
+.price-para {
+  margin-top: 1.8rem;
+  line-height: 30px;
+}
+
+.price-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  bottom: 10.8rem;
+}
+
+.price-item {
+  width: 28.5%;
+  height: 620px;
+  background: #ffffff;
+  border-radius: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.pricing-txt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.price-title {
+  color: #00d285;
+  margin-bottom: 1.2rem;
+}
+
+.price-item h4 {
+  color: #000000;
+  font-size: 1.3em;
+  margin-bottom: 2.1rem;
+}
+
+.price-item h3 {
+  color: #8e9aac;
+  font-size: smaller;
+  margin: 1.4rem 0;
+}
+
+.price-item h1 {
+  color: #00d285;
+  font-size: 3.6em;
+}
+
+.price-item p {
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
+  color: #8e9aac;
+  text-align: center;
+  width: 80%;
+}
+
+.pricing-tag {
+  color: #626262;
+  margin-top: 0.4rem;
+  font-size: 0.9em;
+  letter-spacing: 0.9px;
+}
+
+.pricing-btn button {
+  color: white;
+  background-color: #00d285;
+  border: none;
+  padding: 0.8rem 2.5rem;
+  border-radius: 18px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 1.5rem;
+}
+
+.price-article {
+  width: 100%;
+  padding-left: 2.8rem;
+}
+
+hr {
+  width: 18%;
+  opacity: 45%;
+  margin-top: 0.5rem;
+}
+
+.footer-sec {
+  background-image: url(Images/scooterrental-footer-bg.png);
+  background-repeat: no-repeat;
+  background-color: black;
+  padding-bottom: 1.8rem;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 6rem;
+}
+
+.footer-title {
+  color: #7d7d7d;
+  font-size: 0.9em;
+}
+
+.anchor-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 1.6rem;
+}
+
+.anchor-links a {
+  padding: 0.6rem 0;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1em;
+}
+
+.first-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second-details a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.first-center-heading {
+  color: #ffffff;
+  font-size: 2.3em;
+}
+
+.second-center-heading {
+  color: #00d285;
+  font-size: 2.3em;
+}
+
+.store-img-container {
+  margin: 1.6rem 0;
+}
+
+.fa-long-arrow-alt-right {
+  color: #00d285;
+}
+
+.footer-logo {
+  width: auto;
+  display: flex;
+  margin: 6rem auto;
+}
+
+.footer-copyright {
+  text-align: center;
+  color: #cccccc;
+}
+
+.footer-owner {
+  color: #00d285;
+  font-size: 1em;
+}
+
+.footer-admin {
+  color: #00d285;
+  font-size: 1em;
+}
+
+/* Media Queries Starting From 2nd Vanila CSS */
