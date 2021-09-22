@@ -18,10 +18,6 @@ body {
   background-color: #f8f8ff;
 }
 
-#main-website {
-  outline: 4px solid red;
-}
-
 .navbar {
   width: 100%;
   display: flex;
@@ -484,7 +480,6 @@ a {
 
 .finding-sec {
   margin-top: 7rem;
-  outline: 2px solid crimson;
   padding: 0.5rem 2.2rem;
 }
 
