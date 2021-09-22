@@ -92,19 +92,26 @@ a {
   position: fixed;
   top: 0;
   right: 1px;
-  z-index: 1;
   display: none;
 }
 
 .close-wrapper {
-  background-color: red;
+  width: max-content;
+  float: right;
+  margin-right: 0.9rem;
+}
+
+.fa-times {
+  color: #00d285;
+  font-size: 2.72rem;
 }
 
 .slider-anchor {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 3.9rem;
+  padding-top: 1.9rem;
+  clear: both;
 }
 
 .slider-btn {
@@ -206,6 +213,7 @@ a {
 .download-icon {
   width: 85%;
   margin-top: 2.8rem;
+  cursor: pointer;
 }
 
 .hero-right-img {
@@ -733,6 +741,10 @@ hr {
 
 .store-img-container {
   margin: 1.6rem 0;
+}
+
+.store-img-container img {
+  cursor: pointer;
 }
 
 .fa-long-arrow-alt-right {
