@@ -12,6 +12,10 @@
     width: 30%;
   }
 
+  .slider_display_none {
+    display: none;
+  }
+
   .hero-sec {
     flex-direction: column;
   }

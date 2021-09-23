@@ -79,6 +79,11 @@ body {
   align-items: center;
 }
 
+.fa-shopping-bag {
+  font-size: 1.9rem;
+  color: #333;
+}
+
 .top_bar_right,
 .navbar-slider,
 .column-menu-anchor-list,
@@ -96,14 +101,18 @@ a {
 }
 
 .close-wrapper {
-  width: max-content;
+  width: fit-content;
   float: right;
-  margin-right: 0.9rem;
+  margin-top: 0.82rem;
+  margin-right: 0.92rem;
+}
+
+.close-wrapper-btn {
+  font-size: 2.2rem;
 }
 
 .fa-times {
   color: #00d285;
-  font-size: 2.72rem;
 }
 
 .slider-anchor {
