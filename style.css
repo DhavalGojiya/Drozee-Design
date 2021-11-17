@@ -4,11 +4,6 @@
   box-sizing: border-box;
 }
 
-::selection {
-  color: red;
-  background-color: goldenrod;
-}
-
 html {
   scroll-behavior: smooth;
 }
